@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Jersey Premium Custom - Produsen jersey olahraga berkualitas tinggi dengan teknologi Dry-fit dan sablon anti-pecah. Pesan jersey custom untuk tim Anda sekarang!">
+    <meta name="keywords"
+        content="jersey custom, jersey olahraga, jersey futsal, jersey sepakbola, jersey tim, sablon jersey">
+    <title>JerseyKita - Jersey Premium Custom Terbaik Indonesia</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'outfit': ['Outfit', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                        'space': ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#6366f1',
+                        secondary: '#8b5cf6',
+                        accent: '#f59e0b',
+                        dark: '#0f172a',
+                        light: '#f8fafc',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-inter bg-dark text-white overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#"
+                    class="font-outfit font-bold text-2xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                    JerseyKita
+                </a>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#collection" class="nav-link">Koleksi</a>
+                    <a href="#features" class="nav-link">Keunggulan</a>
+                    <a href="#custom" class="nav-link">Custom</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#contact" class="btn-primary">Hubungi Kami</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-white">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden glass-card mx-4 mt-2 rounded-2xl p-6">
+            <div class="flex flex-col gap-4">
+                <a href="#collection" class="nav-link-mobile">Koleksi</a>
+                <a href="#features" class="nav-link-mobile">Keunggulan</a>
+                <a href="#custom" class="nav-link-mobile">Custom</a>
+                <a href="#faq" class="nav-link-mobile">FAQ</a>
+                <a href="#contact" class="btn-primary text-center mt-2">Hubungi Kami</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="hero-bg"></div>
+        <div class="hero-gradient"></div>
+
+        <!-- Floating Elements -->
+        <div class="floating-badge badge-1">🏆 Best Seller</div>
+        <div class="floating-badge badge-2">⚡ Fast Production</div>
+        <div class="floating-badge badge-3">✨ Premium Quality</div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left animate-fade-in">
+                    <span
+                        class="inline-block px-4 py-2 rounded-full bg-primary/20 text-primary text-sm font-medium mb-6">
+                        #1 Jersey Custom Indonesia
+                    </span>
+                    <h1 class="font-outfit font-black text-5xl md:text-6xl lg:text-7xl leading-tight mb-6">
+                        Jersey <span class="text-gradient">Premium</span><br>
+                        Untuk Tim Anda
+                    </h1>
+                    <p class="text-gray-400 text-lg md:text-xl mb-8 max-w-xl">
+                        Wujudkan jersey impian tim Anda dengan kualitas terbaik. Teknologi Dry-fit, sablon anti-pecah,
+                        dan pengerjaan profesional.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#collection" class="btn-primary-lg">
+                            <span class="material-symbols-outlined">collections</span>
+                            Lihat Koleksi
+                        </a>
+                        <a href="#custom" class="btn-secondary-lg">
+                            <span class="material-symbols-outlined">brush</span>
+                            Custom Sekarang
+                        </a>
+                    </div>
+                    <div class="flex items-center gap-8 mt-10 justify-center lg:justify-start">
+                        <div class="text-center">
+                            <span class="font-outfit font-bold text-3xl text-white">500+</span>
+                            <p class="text-gray-500 text-sm">Tim Puas</p>
+                        </div>
+                        <div class="h-10 w-px bg-gray-700"></div>
+                        <div class="text-center">
+                            <span class="font-outfit font-bold text-3xl text-white">10K+</span>
+                            <p class="text-gray-500 text-sm">Jersey Terjual</p>
+                        </div>
+                        <div class="h-10 w-px bg-gray-700"></div>
+                        <div class="text-center">
+                            <span class="font-outfit font-bold text-3xl text-white">5★</span>
+                            <p class="text-gray-500 text-sm">Rating</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative animate-float">
+                    <div class="hero-jersey-glow"></div>
+                    <img src="https://images.unsplash.com/photo-1580089595767-98745d7025c5?w=600&q=80"
+                        alt="Jersey Premium" class="relative z-10 w-full max-w-lg mx-auto rounded-3xl shadow-2xl">
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+            <span class="material-symbols-outlined text-gray-500 text-4xl">keyboard_arrow_down</span>
+        </div>
+    </section>
+
+    <!-- Featured Collection -->
+    <section id="collection" class="py-24 relative">
+        <div class="section-gradient"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <span
+                    class="inline-block px-4 py-2 rounded-full bg-secondary/20 text-secondary text-sm font-medium mb-4">
+                    Koleksi Unggulan
+                </span>
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl mb-4">
+                    Jersey <span class="text-gradient">Terlaris</span> Kami
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Pilihan jersey terbaik yang dipercaya ratusan tim di seluruh Indonesia
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="product-card group">
+                    <div class="product-image-container">
+                        <img src="https://images.unsplash.com/photo-1580089595767-98745d7025c5?w=400&q=80"
+                            alt="Jersey Striker Pro" class="product-image">
+                        <div class="product-overlay">
+                            <span class="badge-new">NEW</span>
+                            <button class="btn-quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="font-outfit font-semibold text-xl">Striker Pro Series</h3>
+                        <p class="text-gray-400 text-sm mt-1">Jersey Premium Dry-fit</p>
+                        <div class="flex items-center justify-between mt-4">
+                            <span class="font-outfit font-bold text-2xl text-primary">Rp 150.000</span>
+                            <button class="btn-add-cart">
+                                <span class="material-symbols-outlined">add_shopping_cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card group">
+                    <div class="product-image-container">
+                        <img src="https://images.unsplash.com/photo-1551854838-212c50b4c184?w=400&q=80"
+                            alt="Jersey Defender Elite" class="product-image">
+                        <div class="product-overlay">
+                            <span class="badge-hot">HOT</span>
+                            <button class="btn-quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="font-outfit font-semibold text-xl">Defender Elite</h3>
+                        <p class="text-gray-400 text-sm mt-1">Jersey Anti-Bakteri</p>
+                        <div class="flex items-center justify-between mt-4">
+                            <span class="font-outfit font-bold text-2xl text-primary">Rp 175.000</span>
+                            <button class="btn-add-cart">
+                                <span class="material-symbols-outlined">add_shopping_cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card group">
+                    <div class="product-image-container">
+                        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&q=80"
+                            alt="Jersey Goalkeeper" class="product-image">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="font-outfit font-semibold text-xl">Goalkeeper Max</h3>
+                        <p class="text-gray-400 text-sm mt-1">Jersey Kiper Premium</p>
+                        <div class="flex items-center justify-between mt-4">
+                            <span class="font-outfit font-bold text-2xl text-primary">Rp 200.000</span>
+                            <button class="btn-add-cart">
+                                <span class="material-symbols-outlined">add_shopping_cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card group">
+                    <div class="product-image-container">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&q=80"
+                            alt="Jersey Training" class="product-image">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="font-outfit font-semibold text-xl">Training Flex</h3>
+                        <p class="text-gray-400 text-sm mt-1">Jersey Latihan</p>
+                        <div class="flex items-center justify-between mt-4">
+                            <span class="font-outfit font-bold text-2xl text-primary">Rp 125.000</span>
+                            <button class="btn-add-cart">
+                                <span class="material-symbols-outlined">add_shopping_cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="product-card group">
+                    <div class="product-image-container">
+                        <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=400&q=80"
+                            alt="Jersey Retro" class="product-image">
+                        <div class="product-overlay">
+                            <span class="badge-limited">LIMITED</span>
+                            <button class="btn-quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="font-outfit font-semibold text-xl">Retro Classic</h3>
+                        <p class="text-gray-400 text-sm mt-1">Jersey Vintage Style</p>
+                        <div class="flex items-center justify-between mt-4">
+                            <span class="font-outfit font-bold text-2xl text-primary">Rp 185.000</span>
+                            <button class="btn-add-cart">
+                                <span class="material-symbols-outlined">add_shopping_cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="product-card group">
+                    <div class="product-image-container">
+                        <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=400&q=80"
+                            alt="Jersey Team Pro" class="product-image">
+                        <div class="product-overlay">
+                            <span class="badge-bestseller">BEST</span>
+                            <button class="btn-quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="font-outfit font-semibold text-xl">Team Pro Ultimate</h3>
+                        <p class="text-gray-400 text-sm mt-1">Jersey Tim Profesional</p>
+                        <div class="flex items-center justify-between mt-4">
+                            <span class="font-outfit font-bold text-2xl text-primary">Rp 225.000</span>
+                            <button class="btn-add-cart">
+                                <span class="material-symbols-outlined">add_shopping_cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#" class="btn-outline-lg">
+                    Lihat Semua Koleksi
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section id="features" class="py-24 relative">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="inline-block px-4 py-2 rounded-full bg-accent/20 text-accent text-sm font-medium mb-4">
+                    Mengapa Kami?
+                </span>
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl mb-4">
+                    Keunggulan <span class="text-gradient">JerseyKita</span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Kami berkomitmen memberikan kualitas terbaik untuk setiap jersey yang diproduksi
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature Card 1 -->
+                <div class="glass-card p-8 rounded-3xl text-center group hover:scale-105 transition-all duration-300">
+                    <div class="feature-icon-container">
+                        <span class="material-symbols-outlined text-4xl text-primary">sanitizer</span>
+                    </div>
+                    <h3 class="font-outfit font-bold text-xl mt-6 mb-3">Anti-Bakteri</h3>
+                    <p class="text-gray-400 text-sm">Teknologi anti-bakteri menjaga jersey tetap segar sepanjang hari
+                    </p>
+                </div>
+
+                <!-- Feature Card 2 -->
+                <div class="glass-card p-8 rounded-3xl text-center group hover:scale-105 transition-all duration-300">
+                    <div class="feature-icon-container">
+                        <span class="material-symbols-outlined text-4xl text-secondary">water_drop</span>
+                    </div>
+                    <h3 class="font-outfit font-bold text-xl mt-6 mb-3">Dry-Fit Tech</h3>
+                    <p class="text-gray-400 text-sm">Bahan cepat kering dengan sirkulasi udara maksimal</p>
+                </div>
+
+                <!-- Feature Card 3 -->
+                <div class="glass-card p-8 rounded-3xl text-center group hover:scale-105 transition-all duration-300">
+                    <div class="feature-icon-container">
+                        <span class="material-symbols-outlined text-4xl text-accent">print</span>
+                    </div>
+                    <h3 class="font-outfit font-bold text-xl mt-6 mb-3">Sablon Anti-Pecah</h3>
+                    <p class="text-gray-400 text-sm">Hasil sablon tahan lama, tidak mudah pecah atau mengelupas</p>
+                </div>
+
+                <!-- Feature Card 4 -->
+                <div class="glass-card p-8 rounded-3xl text-center group hover:scale-105 transition-all duration-300">
+                    <div class="feature-icon-container">
+                        <span class="material-symbols-outlined text-4xl text-green-400">bolt</span>
+                    </div>
+                    <h3 class="font-outfit font-bold text-xl mt-6 mb-3">Pengerjaan Cepat</h3>
+                    <p class="text-gray-400 text-sm">Proses produksi cepat hanya 5-7 hari kerja</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detail Showcase -->
+    <section id="detail" class="py-24 bg-gradient-to-b from-dark via-slate-900 to-dark">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="inline-block px-4 py-2 rounded-full bg-primary/20 text-primary text-sm font-medium mb-4">
+                    Kualitas Detail
+                </span>
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl mb-4">
+                    Perhatikan <span class="text-gradient">Setiap Detail</span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Klik pada titik-titik untuk melihat detail kualitas jersey kami
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1580089595767-98745d7025c5?w=600&q=80"
+                        alt="Jersey Detail" class="rounded-3xl shadow-2xl w-full">
+
+                    <!-- Hotspots -->
+                    <button class="hotspot" style="top: 15%; left: 50%;" data-detail="collar">
+                        <span class="hotspot-ping"></span>
+                        <span class="hotspot-dot"></span>
+                    </button>
+                    <button class="hotspot" style="top: 40%; left: 20%;" data-detail="fabric">
+                        <span class="hotspot-ping"></span>
+                        <span class="hotspot-dot"></span>
+                    </button>
+                    <button class="hotspot" style="top: 35%; left: 75%;" data-detail="stitching">
+                        <span class="hotspot-ping"></span>
+                        <span class="hotspot-dot"></span>
+                    </button>
+                    <button class="hotspot" style="top: 60%; left: 50%;" data-detail="logo">
+                        <span class="hotspot-ping"></span>
+                        <span class="hotspot-dot"></span>
+                    </button>
+                </div>
+
+                <div class="space-y-6">
+                    <div id="detail-collar" class="detail-card active">
+                        <div class="detail-icon">
+                            <span class="material-symbols-outlined">checkroom</span>
+                        </div>
+                        <div>
+                            <h3 class="font-outfit font-bold text-xl mb-2">Kerah Rib Elastis</h3>
+                            <p class="text-gray-400">Kerah dengan bahan rib berkualitas tinggi, elastis dan nyaman.
+                                Tidak mudah melar meski dicuci berulang kali.</p>
+                        </div>
+                    </div>
+
+                    <div id="detail-fabric" class="detail-card">
+                        <div class="detail-icon">
+                            <span class="material-symbols-outlined">texture</span>
+                        </div>
+                        <div>
+                            <h3 class="font-outfit font-bold text-xl mb-2">Bahan Micro Polyester</h3>
+                            <p class="text-gray-400">Serat halus dengan teknologi Dry-fit premium. Ringan, breathable,
+                                dan cepat kering.</p>
+                        </div>
+                    </div>
+
+                    <div id="detail-stitching" class="detail-card">
+                        <div class="detail-icon">
+                            <span class="material-symbols-outlined">sewing</span>
+                        </div>
+                        <div>
+                            <h3 class="font-outfit font-bold text-xl mb-2">Jahitan Presisi</h3>
+                            <p class="text-gray-400">Dijahit dengan mesin industri premium. Jahitan rapi dan kuat, tahan
+                                aktivitas olahraga berat.</p>
+                        </div>
+                    </div>
+
+                    <div id="detail-logo" class="detail-card">
+                        <div class="detail-icon">
+                            <span class="material-symbols-outlined">diamond</span>
+                        </div>
+                        <div>
+                            <h3 class="font-outfit font-bold text-xl mb-2">Logo Sublimasi HD</h3>
+                            <p class="text-gray-400">Teknik sublimasi memberikan hasil cetak tajam dan detail. Warna
+                                tidak akan pudar atau mengelupas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Design Service -->
+    <section id="custom" class="py-24 relative overflow-hidden">
+        <div class="custom-bg"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <span
+                    class="inline-block px-4 py-2 rounded-full bg-secondary/20 text-secondary text-sm font-medium mb-4">
+                    Layanan Custom
+                </span>
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl mb-4">
+                    Desain Jersey <span class="text-gradient">Impianmu</span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Proses mudah dan cepat untuk membuat jersey custom sesuai keinginan tim Anda
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Step 1 -->
+                <div class="custom-step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <span class="material-symbols-outlined text-3xl">upload_file</span>
+                    </div>
+                    <h3 class="font-outfit font-bold text-xl mt-4 mb-2">Upload Desain</h3>
+                    <p class="text-gray-400 text-sm">Kirim desain jersey Anda atau gunakan template kami</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="custom-step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <span class="material-symbols-outlined text-3xl">chat</span>
+                    </div>
+                    <h3 class="font-outfit font-bold text-xl mt-4 mb-2">Konsultasi</h3>
+                    <p class="text-gray-400 text-sm">Tim desain kami akan bantu menyempurnakan desain</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="custom-step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
+                    </div>
+                    <h3 class="font-outfit font-bold text-xl mt-4 mb-2">Produksi</h3>
+                    <p class="text-gray-400 text-sm">Jersey diproduksi dengan standar kualitas tinggi</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="custom-step-card">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <span class="material-symbols-outlined text-3xl">local_shipping</span>
+                    </div>
+                    <h3 class="font-outfit font-bold text-xl mt-4 mb-2">Pengiriman</h3>
+                    <p class="text-gray-400 text-sm">Jersey dikirim ke alamat Anda dengan aman</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="https://wa.me/6281234567890" class="btn-primary-lg">
+                    <span class="material-symbols-outlined">whatsapp</span>
+                    Mulai Custom Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Behind The Scenes -->
+    <section id="bts" class="py-24 bg-slate-900/50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="inline-block px-4 py-2 rounded-full bg-accent/20 text-accent text-sm font-medium mb-4">
+                    Behind The Scenes
+                </span>
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl mb-4">
+                    Proses <span class="text-gradient">Produksi</span> Kami
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Lihat bagaimana kami memproduksi jersey berkualitas tinggi untuk tim Anda
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bts-card">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Design Process"
+                        class="bts-image">
+                    <div class="bts-overlay">
+                        <span class="material-symbols-outlined text-4xl mb-2">palette</span>
+                        <h3 class="font-outfit font-bold text-xl">Proses Desain</h3>
+                    </div>
+                </div>
+
+                <div class="bts-card">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&q=80"
+                        alt="Fabric Selection" class="bts-image">
+                    <div class="bts-overlay">
+                        <span class="material-symbols-outlined text-4xl mb-2">inventory_2</span>
+                        <h3 class="font-outfit font-bold text-xl">Pemilihan Bahan</h3>
+                    </div>
+                </div>
+
+                <div class="bts-card">
+                    <img src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=400&q=80" alt="Printing"
+                        class="bts-image">
+                    <div class="bts-overlay">
+                        <span class="material-symbols-outlined text-4xl mb-2">print</span>
+                        <h3 class="font-outfit font-bold text-xl">Proses Sablon</h3>
+                    </div>
+                </div>
+
+                <div class="bts-card">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80" alt="Cutting"
+                        class="bts-image">
+                    <div class="bts-overlay">
+                        <span class="material-symbols-outlined text-4xl mb-2">content_cut</span>
+                        <h3 class="font-outfit font-bold text-xl">Pemotongan</h3>
+                    </div>
+                </div>
+
+                <div class="bts-card">
+                    <img src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=400&q=80" alt="Sewing"
+                        class="bts-image">
+                    <div class="bts-overlay">
+                        <span class="material-symbols-outlined text-4xl mb-2">sewing</span>
+                        <h3 class="font-outfit font-bold text-xl">Penjahitan</h3>
+                    </div>
+                </div>
+
+                <div class="bts-card">
+                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80" alt="Quality Check"
+                        class="bts-image">
+                    <div class="bts-overlay">
+                        <span class="material-symbols-outlined text-4xl mb-2">verified</span>
+                        <h3 class="font-outfit font-bold text-xl">Quality Control</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Gallery / Testimonials -->
+    <section id="gallery" class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="inline-block px-4 py-2 rounded-full bg-primary/20 text-primary text-sm font-medium mb-4">
+                    Galeri & Testimoni
+                </span>
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl mb-4">
+                    Tim Yang <span class="text-gradient">Mempercayai</span> Kami
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Ratusan tim telah mempercayakan jersey mereka kepada JerseyKita
+                </p>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+                <div class="testimonial-card">
+                    <div class="flex items-center gap-4 mb-4">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80" alt="Customer"
+                            class="w-14 h-14 rounded-full object-cover">
+                        <div>
+                            <h4 class="font-outfit font-bold">Ahmad Fauzi</h4>
+                            <p class="text-gray-400 text-sm">FC Macan Kumbang</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-1 mb-3">
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                    </div>
+                    <p class="text-gray-300">"Kualitas jersey luar biasa! Bahan adem, sablon tidak pecah meski sudah
+                        dicuci berkali-kali. Recommended banget!"</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="flex items-center gap-4 mb-4">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&q=80" alt="Customer"
+                            class="w-14 h-14 rounded-full object-cover">
+                        <div>
+                            <h4 class="font-outfit font-bold">Budi Santoso</h4>
+                            <p class="text-gray-400 text-sm">Garuda United</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-1 mb-3">
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                    </div>
+                    <p class="text-gray-300">"Pengerjaan cepat dan hasilnya memuaskan. Tim desain sangat helpful dalam
+                        membantu revisi desain kami."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="flex items-center gap-4 mb-4">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&q=80" alt="Customer"
+                            class="w-14 h-14 rounded-full object-cover">
+                        <div>
+                            <h4 class="font-outfit font-bold">Rizky Pratama</h4>
+                            <p class="text-gray-400 text-sm">Elang Jaya FC</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-1 mb-3">
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                    </div>
+                    <p class="text-gray-300">"Sudah 3x order di sini dan selalu puas. Harga reasonable untuk kualitas
+                        premium seperti ini."</p>
+                </div>
+            </div>
+
+            <!-- Logo Marquee -->
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <div class="marquee-content">
+                        <span class="team-logo">⚽ FC Macan Kumbang</span>
+                        <span class="team-logo">🏆 Garuda United</span>
+                        <span class="team-logo">⚡ Elang Jaya FC</span>
+                        <span class="team-logo">🔥 Persib Junior</span>
+                        <span class="team-logo">💪 Arema Futsal</span>
+                        <span class="team-logo">🌟 Bintang Timur</span>
+                        <span class="team-logo">⚽ Sriwijaya Muda</span>
+                        <span class="team-logo">🏆 Persija Academy</span>
+                    </div>
+                    <div class="marquee-content">
+                        <span class="team-logo">⚽ FC Macan Kumbang</span>
+                        <span class="team-logo">🏆 Garuda United</span>
+                        <span class="team-logo">⚡ Elang Jaya FC</span>
+                        <span class="team-logo">🔥 Persib Junior</span>
+                        <span class="team-logo">💪 Arema Futsal</span>
+                        <span class="team-logo">🌟 Bintang Timur</span>
+                        <span class="team-logo">⚽ Sriwijaya Muda</span>
+                        <span class="team-logo">🏆 Persija Academy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Limited Edition Countdown -->
+    <section id="limited" class="py-24 relative overflow-hidden">
+        <div class="limited-bg"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <span
+                        class="inline-block px-4 py-2 rounded-full bg-red-500/20 text-red-400 text-sm font-medium mb-4 animate-pulse">
+                        🔥 Limited Edition
+                    </span>
+                    <h2 class="font-outfit font-bold text-4xl md:text-5xl mb-4">
+                        Jersey <span class="text-gradient">Eksklusif</span>
+                    </h2>
+                    <p class="text-gray-400 mb-8 max-w-lg">
+                        Edisi terbatas hanya 100 pieces! Dapatkan jersey eksklusif dengan desain spesial yang tidak akan
+                        diproduksi lagi.
+                    </p>
+
+                    <!-- Countdown Timer -->
+                    <div class="countdown-container">
+                        <div class="countdown-item">
+                            <span id="days" class="countdown-number">07</span>
+                            <span class="countdown-label">Hari</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span id="hours" class="countdown-number">12</span>
+                            <span class="countdown-label">Jam</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span id="minutes" class="countdown-number">45</span>
+                            <span class="countdown-label">Menit</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span id="seconds" class="countdown-number">30</span>
+                            <span class="countdown-label">Detik</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#" class="btn-danger-lg pulse-animation">
+                            <span class="material-symbols-outlined">shopping_bag</span>
+                            Pesan Sekarang
+                        </a>
+                        <span class="text-gray-400 flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined text-red-400">group</span>
+                            Tersisa 23 dari 100
+                        </span>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="limited-jersey-glow"></div>
+                    <img src="https://images.unsplash.com/photo-1580089595767-98745d7025c5?w=500&q=80"
+                        alt="Limited Edition Jersey"
+                        class="relative z-10 w-full max-w-md mx-auto rounded-3xl shadow-2xl">
+                    <div
+                        class="absolute top-4 right-4 z-20 bg-red-500 text-white px-4 py-2 rounded-full font-outfit font-bold">
+                        -30% OFF
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 bg-slate-900/50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <span
+                    class="inline-block px-4 py-2 rounded-full bg-secondary/20 text-secondary text-sm font-medium mb-4">
+                    FAQ
+                </span>
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl mb-4">
+                    Pertanyaan <span class="text-gradient">Umum</span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Temukan jawaban untuk pertanyaan yang sering diajukan
+                </p>
+            </div>
+
+            <div class="max-w-3xl mx-auto space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah bisa order satuan?</span>
+                        <span class="material-symbols-outlined faq-icon">expand_more</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ya, kami menerima order satuan mulai dari 1 pcs. Namun untuk harga yang lebih ekonomis, kami
+                            sarankan order minimal 12 pcs.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Berapa lama waktu pengerjaan?</span>
+                        <span class="material-symbols-outlined faq-icon">expand_more</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Waktu pengerjaan standar adalah 5-7 hari kerja setelah desain disetujui dan pembayaran
+                            diterima. Untuk order besar atau express, silakan konsultasi terlebih dahulu.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah bisa retur jika salah ukuran?</span>
+                        <span class="material-symbols-outlined faq-icon">expand_more</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kami menyediakan garansi tukar ukuran dalam waktu 7 hari setelah barang diterima, dengan
+                            syarat jersey belum dicuci dan masih memiliki tag. Biaya pengiriman retur ditanggung
+                            pembeli.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Metode pembayaran apa saja yang diterima?</span>
+                        <span class="material-symbols-outlined faq-icon">expand_more</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kami menerima pembayaran via Transfer Bank (BCA, Mandiri, BNI, BRI), E-Wallet (GoPay, OVO,
+                            DANA, ShopeePay), dan COD untuk area tertentu.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah desain bisa direvisi?</span>
+                        <span class="material-symbols-outlined faq-icon">expand_more</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ya, kami memberikan 3x revisi gratis untuk setiap order custom. Revisi tambahan akan
+                            dikenakan biaya Rp 25.000 per revisi.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah ada garansi produk?</span>
+                        <span class="material-symbols-outlined faq-icon">expand_more</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ya, kami memberikan garansi 30 hari untuk kerusakan produksi seperti jahitan lepas atau
+                            sablon mengelupas (bukan karena pemakaian atau pencucian yang salah).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-16 bg-slate-950">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div>
+                    <a href="#"
+                        class="font-outfit font-bold text-2xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        JerseyKita
+                    </a>
+                    <p class="text-gray-400 mt-4 mb-6">
+                        Produsen jersey olahraga premium dengan kualitas terbaik dan harga terjangkau.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="social-icon">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/6281234567890" class="social-icon">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h4 class="font-outfit font-bold text-lg mb-4">Menu</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#collection" class="text-gray-400 hover:text-primary transition-colors">Koleksi</a>
+                        </li>
+                        <li><a href="#features"
+                                class="text-gray-400 hover:text-primary transition-colors">Keunggulan</a></li>
+                        <li><a href="#custom" class="text-gray-400 hover:text-primary transition-colors">Custom
+                                Jersey</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-primary transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-outfit font-bold text-lg mb-4">Kontak</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-gray-400">
+                            <span class="material-symbols-outlined text-primary">location_on</span>
+                            Jl. Industri Jersey No. 123, Jakarta
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-400">
+                            <span class="material-symbols-outlined text-primary">phone</span>
+                            +62 812-3456-7890
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-400">
+                            <span class="material-symbols-outlined text-primary">mail</span>
+                            info@jerseykita.com
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Payment -->
+                <div>
+                    <h4 class="font-outfit font-bold text-lg mb-4">Metode Pembayaran</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="payment-badge">BCA</span>
+                        <span class="payment-badge">Mandiri</span>
+                        <span class="payment-badge">BNI</span>
+                        <span class="payment-badge">GoPay</span>
+                        <span class="payment-badge">OVO</span>
+                        <span class="payment-badge">DANA</span>
+                    </div>
+                    <h4 class="font-outfit font-bold text-lg mt-6 mb-4">Marketplace</h4>
+                    <div class="flex gap-3">
+                        <a href="#" class="marketplace-badge">Shopee</a>
+                        <a href="#" class="marketplace-badge">Tokopedia</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-500">© 2024 JerseyKita. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
