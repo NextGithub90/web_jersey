@@ -559,7 +559,7 @@ body {
 
 .marquee-track {
     display: flex;
-    animation: marquee 9s linear infinite;
+    animation: marquee 4s linear infinite;
 }
 
 .marquee-content {
